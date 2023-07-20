@@ -1,59 +1,62 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import SlideShow from './SlideShow.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>JPS Interact Club</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+<section class="hero">
+	<div class="left-half">
+		<h1 class="title">JPS Interact Club</h1>
+		<p class="description">The home of community service at John P. Stevens High School.</p>
+	</div>
+	<div class="right-half">
+		<SlideShow />
+	</div>
 </section>
 
 <style>
-	section {
+	.hero {
+		padding: 0;
+		margin: 0;
+		height: 70vh;
+		width: 100vw;
+		background: var(--secondary);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.left-half {
+		max-width: 50vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+		align-items: left;
+		padding: 0 8rem 0 8rem;
 	}
 
-	h1 {
-		width: 100%;
+	.title {
+		font-weight: 600;
+		margin: 0;
+		color: var(--primary-bg);
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	.description {
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0;
+		color: var(--secondary-fg);
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	.right-half {
+		max-width: 50vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+		padding: 0 8rem 0 0;
 	}
 </style>
