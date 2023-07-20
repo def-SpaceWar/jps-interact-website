@@ -28,10 +28,60 @@
 		and goodwill.
 	</p>
 </div>
+<div class="board">
+	<h1>Our Board Team</h1>
+	<div class="board-members-container">
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+		<div class="board-member">
+			<img src="hero-banner.png" />
+			<h1>Person Name</h1>
+			<h5>Chief Executive Officer</h5>
+		</div>
+	</div>
+</div>
 
 <style>
 	.container {
-		padding: 1rem 8rem 0 8rem;
+		padding: 0rem 8rem 4rem 8rem;
 	}
 
 	.container p {
@@ -42,8 +92,53 @@
 		padding: 0;
 		margin: 0;
 		font-weight: 500;
+		/* background-color: var(--primary);
+		color: var(--background); */
+		padding: 3rem 8rem 0rem 8rem;
+	}
+
+	.board {
 		background-color: var(--primary);
 		color: var(--background);
-		padding: 6rem 8rem 1rem 8rem;
+		padding: 4rem 8rem 4rem 8rem;
+	}
+	.board h1 {
+		padding: 0;
+		margin: 0;
+		font-weight: 500;
+	}
+
+	.board-members-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.board-member {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem 1rem;
+	}
+	.board-member img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 9999px;
+	}
+
+	.board-member h1 {
+		margin: 0;
+		margin-top: 0.3rem;
+		padding: 0;
+		font-size: 23px;
+	}
+	.board-member h5 {
+		margin: 0;
+		margin-top: 0.1rem;
+		font-weight: 400;
+		color: var(--secondary-fg);
+		padding: 0;
+		font-size: 17px;
 	}
 </style>

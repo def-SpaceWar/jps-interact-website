@@ -13,11 +13,11 @@
 				<p class="link">Home</p>
 			</a>
 			<a href="/about">
-				<p class="link">About</p>
+				<p class="link">About Us</p>
 			</a>
-			<a href="/board">
+			<!-- <a href="/board">
 				<p class="link">Board</p>
-			</a>
+			</a> -->
 			<a href="/hour">
 				<p class="link">Hours</p>
 			</a>

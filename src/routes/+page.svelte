@@ -22,7 +22,7 @@
 		padding: 0;
 		margin: 0;
 		height: 70vh;
-		width: 100vw;
+		width: 100%;
 		background: var(--secondary);
 		display: flex;
 		justify-content: center;

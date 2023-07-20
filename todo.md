@@ -9,8 +9,8 @@
   - FAQ
   - Contact Form/Information
 
+- routes/about/+page.svelte
+
+  - Add Board Section
+
 - routes/+layout.svelte
-  - Add a Footer
-    - Address? (Ask Hassan)
-    - Socials
-    - Basic Contact Information

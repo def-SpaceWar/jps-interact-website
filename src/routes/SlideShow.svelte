@@ -1,8 +1,12 @@
 <script lang="ts">
+	import { fade } from 'svelte/transition';
+	import SlideShowIndicator from './SlideShowIndicator.svelte';
+
 	type ImageData = {
 		src: string;
 		alt: string;
 	};
+
 	const images: ImageData[] = [
 		{
 			src: 'banner.png',
@@ -15,7 +19,6 @@
 	];
 
 	let currentImgIdx = 0;
-	$: currentImg = images[currentImgIdx];
 	$: numList = images.map((_, idx) => idx);
 
 	function prevImg() {
@@ -39,56 +42,37 @@
 
 <div id="slideshow">
 	<button on:click={prevImg} id="prev">
-		<svg
-			viewBox="10 0 100 100"
-			xmlns="http://www.w3.org/2000/svg"
-			width="50"
-			height="50"
-			id="selected"
-		>
-			<polygon points="100 0 20 50 100 100" />
+		<svg viewBox="10 0 100 100" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+			<polygon points="80 0 20 50 80 100 100 100 40 50 100 0" />
 		</svg>
 	</button>
-	<img src={currentImg.src} alt={currentImg.alt} width="100%" />
 	<button on:click={nextImg} id="next">
-		<svg
-			viewBox="0 0 80 100"
-			xmlns="http://www.w3.org/2000/svg"
-			width="50"
-			height="50"
-			id="selected"
-		>
-			<polygon points="0 0 80 50 0 100" />
+		<svg viewBox="0 0 80 100" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+			<polygon points="20 0 80 50 20 100 0 100 60 50 0 0" />
 		</svg>
 	</button>
+	{#each numList as indexNum (indexNum)}
+		{#if indexNum == currentImgIdx}
+			<img src={images[indexNum].src} alt={images[indexNum].alt} transition:fade />
+		{/if}
+	{/each}
 	<div id="indicator">
-		{#each numList as indexNum}
-			{#if indexNum == currentImgIdx}
-				<button id="invisible">
-					<svg
-						viewBox="0 0 100 100"
-						xmlns="http://www.w3.org/2000/svg"
-						width="10"
-						height="10"
-						id="selected"
-					>
-						<circle cx="50" cy="50" r="50" />
-					</svg>
-				</button>
-			{:else}
-				<button on:click={setImage(indexNum)} id="invisible" class="clickable">
-					<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="10" height="10">
-						<circle cx="50" cy="50" r="50" />
-					</svg>
-				</button>
-			{/if}
+		{#each numList as indexNum (indexNum)}
+			<SlideShowIndicator
+				{indexNum}
+				selected={indexNum == currentImgIdx}
+				on:click={setImage(indexNum)}
+			/>
 		{/each}
 	</div>
 </div>
 
 <style>
 	img {
-		height: auto;
+		position: absolute;
+		width: 35vw;
+		top: 50%;
+		transform: translateY(-50%);
 		border-radius: 10px;
 	}
 
@@ -108,7 +92,8 @@
 
 	#slideshow {
 		position: relative;
-		width: 100%;
+		width: 35vw;
+		height: 35vh;
 	}
 
 	#prev {
@@ -117,7 +102,6 @@
 		border-radius: 10px 0px 0px 10px;
 	}
 
-	.clickable:hover,
 	button[id='prev']:hover,
 	button[id='next']:hover {
 		cursor: pointer;
@@ -137,16 +121,7 @@
 		justify-content: center;
 	}
 
-	#invisible {
-		background-color: transparent;
-		padding: 30px 0px 0px 0px;
-	}
-
 	svg {
-		fill: var(--nav-title-fg);
-	}
-
-	#selected {
 		fill: var(--primary-bg);
 	}
 </style>

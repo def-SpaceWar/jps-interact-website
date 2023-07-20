@@ -12,6 +12,9 @@
 	--secondary-bg: #dddddd;
 	--background: var(--primary-bg);
 	--foreground: var(--primary-fg);
+	--footer-text: #000000;
+	--light-gray: #6B7283;
+	--logo-color: #01B4E7;
 	--nav-hover-fg: #77ffff;
 	--nav-title-fg: #33f0ff;
 	--transition-length: 300ms;
@@ -25,6 +28,14 @@
 
 h1 {
 	font-size: 3.5rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.8rem;
 }
 
 body {
@@ -43,3 +54,4 @@ button {
 	border: var(--secondary-btn) 2px solid;
 	border-radius: 10px;
 }
+
