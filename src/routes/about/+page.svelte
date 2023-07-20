@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>JPS Interact Club: About</title>
+	<meta name="description" content="About the JPS Interact Club" />
 </svelte:head>
 
 <h1 class="title">About Us</h1>

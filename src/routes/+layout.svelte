@@ -1,17 +1,13 @@
 <script>
+	import Footer from './Footer.svelte';
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
 	<Header />
-
 	<slot />
-
-	<!-- <Footer /> -->
-	<!-- <footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer> -->
+	<Footer />
 </div>
 
 <style>
@@ -20,5 +16,4 @@
 		flex-direction: column;
 		min-height: 100vh;
 	}
-
 </style>
