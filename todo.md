@@ -11,6 +11,4 @@
 
 - routes/about/+page.svelte
 
-  - Add Board Section
-
 - routes/+layout.svelte

@@ -18,7 +18,7 @@
 			<!-- <a href="/board">
 				<p class="link">Board</p>
 			</a> -->
-			<a href="/hour">
+			<a href="/hours">
 				<p class="link">Hours</p>
 			</a>
 			<a href="/events">

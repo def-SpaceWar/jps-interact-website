@@ -72,6 +72,7 @@
 		margin: 0;
 		margin-right: 0.6rem;
 		color: var(--logo-color);
+		font-family: 'Rubik', sans-serif;
 	}
 	.flex {
 		display: flex;

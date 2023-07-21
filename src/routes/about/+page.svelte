@@ -1,9 +1,10 @@
 <svelte:head>
-	<title>JPS Interact Club: About</title>
-	<meta name="description" content="About the JPS Interact Club" />
+	<title>About - JPS Interact Club</title>
+	<meta name="description" content="Learn more about the JPS Interact Club" />
 </svelte:head>
 
-<h1 class="title">About Us</h1>
+<h1 class="title">ABOUT US</h1>
+<hr />
 <div class="container">
 	<p>
 		The Interact Club is a subset of the Rotary club that aims to provide service and leadership
@@ -61,27 +62,17 @@
 			<h1>Person Name</h1>
 			<h5>Chief Executive Officer</h5>
 		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
 	</div>
 </div>
 
 <style>
+	hr {
+		background: var(--foreground);
+		border: 2px solid var(--foreground);
+		width: 30%;
+	}
 	.container {
-		padding: 0rem 8rem 4rem 8rem;
+		padding: 0rem 8rem 5rem 8rem;
 	}
 
 	.container p {
@@ -94,11 +85,13 @@
 		font-weight: 500;
 		/* background-color: var(--primary);
 		color: var(--background); */
-		padding: 3rem 8rem 0rem 8rem;
+		padding: 5rem 8rem 0rem 8rem;
+		text-align: center;
+		font-family: 'Rubik', sans-serif;
 	}
 
 	.board {
-		background-color: var(--primary);
+		background-color: var(--secondary);
 		color: var(--background);
 		padding: 4rem 8rem 4rem 8rem;
 	}
@@ -119,6 +112,9 @@
 		align-items: center;
 		justify-content: center;
 		margin: 1rem 1rem;
+		padding: 1rem;
+		border-radius: 10px;
+		border: 5px double var(--background);
 	}
 	.board-member img {
 		width: 200px;
