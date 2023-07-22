@@ -45,9 +45,10 @@
 		<!-- <svg viewBox="10 0 100 100" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
 			<polygon points="80 0 20 50 80 100 100 100 40 50 100 0" />
 		</svg> -->
-		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6klEQVR4nO3csYoUQRRG4R/BhzAyEkRFRM0uc7N5TVMxMloRBB9HXFx20V11A0EZHHGRFXsMug7d54OKZoILhyo6qUokSZIW7MboAfTT/SSvklwm+ZrkKMm9/W+a2SbJpyTf/1gfk9yde5i12yQ5vybGr/Vy9IBrUn/ZGVfX6egh16ImxNitk9GDrsHmH8fU1fV89LBLtzkgxockt0cPvGQ18ZjarbMkT0cPvGRlDI4yBkcZg6OMwVHG4ChjcJQxOMoYHGUMjjIGRxmDo4zBUcbgKGNwlDE4yhgcZQyOMgZHGYOjjMFRxuAoY3CUMTjKGBxlDI4yBocxQIwBYgwQY4AYA8QYIMYAeXjANbKTJI9GD7x0r43Bejtkyr2+M+/0zRdkynF1nOTBTDOt3puJR9Z7H3yZx5MkX4zC0kkuJkY59vgyymq5U4CMAmQUIKMAGQWo/STmaaPwtFF42ig8bRSeNgpPG4WnjcLTRuFpo/C0UXjaKDxtFJ42Ck8bhaeNwtNG4Wmj8LRReNooPG0UnjYKTxuFp43C00bhaaPwtFF4tgdcr3uX5Nbogddge0CUZ6OHXYvtxCi7XSJQlN0FVIGivJhzGP2O8vmaGKdJ7uz/o5k9TvI2ybckl0mOfFWC4eb+fRZJkqT8lx/On7P41G+AEgAAAABJRU5ErkJggg=="/>
-
-
+		<img
+			src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6klEQVR4nO3csYoUQRRG4R/BhzAyEkRFRM0uc7N5TVMxMloRBB9HXFx20V11A0EZHHGRFXsMug7d54OKZoILhyo6qUokSZIW7MboAfTT/SSvklwm+ZrkKMm9/W+a2SbJpyTf/1gfk9yde5i12yQ5vybGr/Vy9IBrUn/ZGVfX6egh16ImxNitk9GDrsHmH8fU1fV89LBLtzkgxockt0cPvGQ18ZjarbMkT0cPvGRlDI4yBkcZg6OMwVHG4ChjcJQxOMoYHGUMjjIGRxmDo4zBUcbgKGNwlDE4yhgcZQyOMgZHGYOjjMFRxuAoY3CUMTjKGBxlDI4yBocxQIwBYgwQY4AYA8QYIMYAeXjANbKTJI9GD7x0r43Bejtkyr2+M+/0zRdkynF1nOTBTDOt3puJR9Z7H3yZx5MkX4zC0kkuJkY59vgyymq5U4CMAmQUIKMAGQWo/STmaaPwtFF42ig8bRSeNgpPG4WnjcLTRuFpo/C0UXjaKDxtFJ42Ck8bhaeNwtNG4Wmj8LRReNooPG0UnjYKTxuFp43C00bhaaPwtFF4tgdcr3uX5Nbogddge0CUZ6OHXYvtxCi7XSJQlN0FVIGivJhzGP2O8vmaGKdJ7uz/o5k9TvI2ybckl0mOfFWC4eb+fRZJkqT8lx/On7P41G+AEgAAAABJRU5ErkJggg=="
+			alt="previous"
+		/>
 	</button>
 	<button on:click={nextImg} id="next">
 		<!-- <svg viewBox="0 0 80 100" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
@@ -55,11 +56,12 @@
 		</svg> -->
 		<img
 			src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABvUlEQVR4nO3du0okURRG4d/LmwijmbA3UvPMJgYihvoywiReMFAbgxahTUSxReyzhlofVL7pRZ2qZFcnkiRJP7Dlr8dwmOQ8yWOSRZLTJAejh5pzjPsky3fXbZJp9HBzdP5BjLfrziibtb06pj4LYpQBHr4IsvRO2ayTNYIsjbI5e6sHuFFAKsn1N6L8HT3wHBgFyChARgEyCpBRgIwCVL4S85RReMooPGUUnjIKTxmFp4zCU0bhKaPwlFF4yig8ZRSeMgpPGYWnjMJTRuEpo/CUUXjKKDxlFJ4yCk8ZhaeMwlNG4Smj8JRReMooPNNqQ2udTa7XNbw/oweeg+kbUY5HDzsXtebx9W/0oHPRSW7WCHI1etA5mDyyOCYf6v/fMbX0qxK/zxgg7Z3B0cbgaGNwtDE42hgcbQyONgZHG4OjjcHRxuBoY3C0MTjaGBxtDI42Bkcbg6ONwdHG4GhjcLQxONoYHG0MjjYGRxuDo43BYQwQY4AYA8QYIMYAMQaIMUD2/etVljPXyDh2kizc6ePYTfLsgiXLpduuLEdJHj/5uMvr3rgGRblYHV9PSU790g7nIb89eghJkqT8lhfcmbLovD1dtwAAAABJRU5ErkJggg=="
+			alt="next"
 		/>
 	</button>
 	{#each numList as indexNum (indexNum)}
 		{#if indexNum == currentImgIdx}
-			<img src={images[indexNum].src} alt={images[indexNum].alt} transition:fade class="img"/>
+			<img src={images[indexNum].src} alt={images[indexNum].alt} transition:fade class="img" />
 		{/if}
 	{/each}
 	<div id="indicator">
@@ -126,7 +128,6 @@
 		width: 50px;
 		filter: invert(100%);
 	}
-	
 
 	#indicator {
 		position: absolute;
@@ -134,9 +135,5 @@
 		width: 100%;
 		display: flex;
 		justify-content: center;
-	}
-
-	svg {
-		fill: var(--primary-bg);
 	}
 </style>
