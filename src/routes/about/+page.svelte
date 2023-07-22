@@ -72,7 +72,7 @@
 		width: 30%;
 	}
 	.container {
-		padding: 0rem 8rem 5rem 8rem;
+		padding: 0rem 8rem 8rem 8rem;
 	}
 
 	.container p {
@@ -85,7 +85,7 @@
 		font-weight: 500;
 		/* background-color: var(--primary);
 		color: var(--background); */
-		padding: 5rem 8rem 0rem 8rem;
+		padding: 8rem 8rem 0rem 8rem;
 		text-align: center;
 		font-family: 'Rubik', sans-serif;
 	}
@@ -93,7 +93,7 @@
 	.board {
 		background-color: var(--secondary);
 		color: var(--background);
-		padding: 4rem 8rem 4rem 8rem;
+		padding: 6rem 8rem 6rem 8rem;
 	}
 	.board h1 {
 		padding: 0;
@@ -114,7 +114,7 @@
 		margin: 1rem 1rem;
 		padding: 1rem;
 		border-radius: 10px;
-		border: 5px double var(--background);
+		border: 5px double var(--secondary-bg);
 	}
 	.board-member img {
 		width: 200px;
