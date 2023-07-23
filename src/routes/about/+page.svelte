@@ -2,7 +2,13 @@
 	<title>About - JPS Interact Club</title>
 	<meta name="description" content="Learn more about the JPS Interact Club" />
 </svelte:head>
-
+<script lang="ts">
+	import { fade } from 'svelte/transition';
+	import inView from '../inView.js';
+	let animated = false;
+	let animated1 = false;
+	$: animated;
+</script>
 <h1 class="title">ABOUT US</h1>
 <hr />
 <div class="container">
@@ -29,40 +35,53 @@
 		and goodwill.
 	</p>
 </div>
-<div class="board">
+<div
+	use:inView={{ threshold: 0.3 }}
+	on:enter={() => {
+		animated = true;
+	}}
+	on:exit={() => {
+		animated = false;
+	}}
+	class="board"
+>
 	<h1>Our Board Team</h1>
-	<div class="board-members-container">
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
+	{#if animated}
+		<div transition:fade={{
+			duration: 500
+		}} class="board-members-container">
+			<div class="board-member">
+				<img src="hero-banner.png" />
+				<h1>Person Name</h1>
+				<h5>Chief Executive Officer</h5>
+			</div>
+			<div class="board-member">
+				<img src="hero-banner.png" />
+				<h1>Person Name</h1>
+				<h5>Chief Executive Officer</h5>
+			</div>
+			<div class="board-member">
+				<img src="hero-banner.png" />
+				<h1>Person Name</h1>
+				<h5>Chief Executive Officer</h5>
+			</div>
+			<div class="board-member">
+				<img src="hero-banner.png" />
+				<h1>Person Name</h1>
+				<h5>Chief Executive Officer</h5>
+			</div>
+			<div class="board-member">
+				<img src="hero-banner.png" />
+				<h1>Person Name</h1>
+				<h5>Chief Executive Officer</h5>
+			</div>
+			<div class="board-member">
+				<img src="hero-banner.png" />
+				<h1>Person Name</h1>
+				<h5>Chief Executive Officer</h5>
+			</div>
 		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-		<div class="board-member">
-			<img src="hero-banner.png" />
-			<h1>Person Name</h1>
-			<h5>Chief Executive Officer</h5>
-		</div>
-	</div>
+	{/if}
 </div>
 
 <style>

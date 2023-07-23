@@ -1,0 +1,106 @@
+<svelte:head>
+	<title>Resources - JPS Interact Club</title>
+	<meta name="description" content="View your or others hours recorded in the JPS Interact Club." />
+</svelte:head>
+
+<div class="container">
+	<h1 class="title">Resources</h1>
+	<hr />
+	<div class="flex">
+		<div class="card">
+			<img
+				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFE0lEQVR4nO2dz4scRRTHn4eIEVT0oNF4U/EX+B94VBHBIF4lF0WM5uDJHwdRzNWsJh70Ll72lJmq2RijeIoG3QQlqxFNECfOe7NZDRg9aBJtedXLrNO9M13V3cPWdH8/ULDMbHdVv0/Xjy6qeogAAAAAAAAAAAAwT3TkfrLyNlleIcN/kpUESfxj4GKmsZMFWuL7yotYXLmaLL9Llq9AgNR0E/IVMnyAlpNtZWQchQiZTWtg+OMwKa5moGmimcaA3wnoMzLNlJFvyQwfp0Nr14VVNUAaMzvcRUa+y9SSy2T5Xo/aoR14RsbSr9cjtBU5euEGsnI6U1P2Fx+oAsYOGu6qWhawjhk8kWm2TlEhli+OHYRmqj60pRkXcrH4oGznk6XHT5KR39DpS8FISs5Rjx8Njm/wAYYFMsR3NNWfvRAMh5OgGECItFwIGAdCIgNCIgNCIgNCIgNCIgNCIgNCIgNCIgNCIgNCIgNCIqO1QjqZ9WK1rX+qSOuELPqsFyu7/qkGWiVkMXC9WPD6pxpolRBbZr2Y7/qnusrYFiGdgvVildc/1URrhFjP9WKl1z/VVs6WCDEB68VKrX+qidYIsQHrxUqtf2q7EB0xGdlLho+PniMMf0E9ecF9N2shofk3WsihtdvIyMncuewonaDD528dz5dXamuyyuTfWCHpnTktGMl6Wh57htAn8P9/r6Mp7cCz6GdGvs+c663K+TdWiDYTxcFI0qDzntFxOh2Sfzo/7WqDNlGa9O+sDB32dgf3VM6/uUL4eOaiDZn+zjSxyTQ1n2eOPeAdzI2atFBb/o0UYvmP8YD0d46+Wzp3+9TOWJsQnQ7xF3Ik1+xUyb+hQsZHSxqEkIAsJ9vcdIh7Ap/Y1Fx2NWOzPqBq/o0TMqnJ0GAYtt5NhutTZL8bQbm73qVTrgOfNlVSV/6NEaLjfN8mp8vPBZ9/q/OfOyFuCl1OeATky5lMnc86/7kTouhDl47zJ/YB8tXEBzMdwqZP2B+uP0+skZG/XEr/Prn+3V46/MvdteffSCEbI6Y9ZPjYqA8wfMw1E9k7c7G/PW1q+Bvv5majH/g6nQ7pby+dfyuE+NAdXEtWXibLw3AROTFDMvKSO+csmVshneED7s41fHC9ifkgnR7hZ8mcv4vM4BGyfLa6iJyYs9QdPOzycHnJQpq3loEPkuXnXdlaISSdZ3qVLP9YOqCGL7mHQzN4kczgQbKrO+izn65xSdt9/cx9p//DlyqI+4GsvBL80oS5EJIkV1Fv+AxZuVBBxO9k+XXqDG/xi4yWdXUHGXkjPbZsvm4L+NPuGhoh5IjcTIY/rXCn/kNW3nPnKYsrg7xPhv+tUI5PvMoQvRDDZyZc5N9kuUuGXyPDu8nyU2RkX+7/esOHqC70XPkasC/Nm3e7smiZXNk2raVn5l9I/qL0rXRvkv35xlL5V8Xn/B/1b3Jl3OwNeo0TsrR6R6X8qxJy/s7qnc0XMu+pCAgRCEENmQJqiKCGzLTTnXeiryFtw0JIXEBIZEBIZEBIZEBIZEBIZECIJ5jLigyLycW4sBASF7YtQpCSIIEQIg0Xom/93+qLtHOSNFYzF6I/waBv/d/qi7WRJ8NMVh6rQQh+0CWyH3QJ2A8Owij1yg/f/eAgjKL98xMp2g8OwvDdPz+VMvvBkZJK++enEr4fHMkGxSC/f95LStF+cKQkcCg8ef+8N7n94BBBQTHw3D8PAAAAAAAAAAAAio//AHMDpnGdSmEaAAAAAElFTkSuQmCC"
+				class="icon"
+			/>
+			<h1>Google Classroom Code</h1>
+			<h4>vqq5njd</h4>
+		</div>
+		<div class="card">
+			<img
+				src="data:image/png;base64,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"
+				class="icon"
+			/>
+
+			<h1>Instagram</h1>
+			<h4>@jps.interact</h4>
+		</div>
+		<div class="card">
+			<img
+				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEiUlEQVR4nO2cS4hcRRSGj/GBEBEUfOJCx/czoiiCGHcu3ehOcam7CG7Mrl3JuM5Ckk3QRRaNYLrrdE8GhfGFJjGiEmEUwTg6fc7tGFCSjJqXV6p6epxhYqb69r1dVTf/B7VpaE7V+euvPlW3+hIBAAAAAAAAAAAAAAAAAAAAAAAAANSGrlxHnE2hZcVzYHNYGkZ2E2uOpsVzYHMIQTSeSQRBNLwIEETDJx6CaPhkQxANn+DkBDHyD7HsoFb/jtqUyy07FtkxGFtqgqw0+ZzavXsoddiKoh/F7RAjZzw79Ce15TVq5JsoNRr5Jtd3Owa/xJ8J6ZB3iOVlMnLSs7NfJOWWbv/2EVxhBXudjL4b0iG7/7OzzPmJon+5jjfzSylmV/AIE80uyzOLd3vlqhR8guT5JbVwS7eAK1ZPrmgEGZKqWxpjuGI10QlS1C0s91JIVxj9uLArohckFbc0SnJFMoIUc8v+ibilTFckJUhsbmksu4J1qTRXJClIDG5p2aMP/aR0VyQrSFG3GH2DDuWXF+6/TarJXq3MFckLUsgt+jXx4sMjx+nKfcRyoFJX1EKQQm6R08Qy7eWWufyy5aOMvyt3Ra0EKeIWlm8u6JZJu6J2gqzEOXqnm6l+S5id+dudE9a6YvtIrrAxSx1DnQTpZk8Qy4+eM3utW1p6P7EeHOm7Rn+mtjxd6hhqIUjzuyuI5U1iOTuaGKvc4u2KdYKedbFtH8ogeUHsPoP1q2LJ1BKbHKZW9lDUuao0iPsh122eT+KWiHV+jITPe+5BbF+2ub7FlKvKg7SyG8gIeybzoCtHh2Us6yn/pcw+TpXpwZKYTZHRzzzd8gF1f70lilxVHqQjzxHrMc+1fXrd2m70ATL6pcf3v6V275Hz703sfmZDYX4n03shaK4qDdI9djWx7vSc2UfI9J4qtOkbbh4v9CNt9HEy+oOn05rEC9dMNFeVB2HZ6kpMvwTsomb/Kr9+WbfYA8iV/ux3n/lgY9hYXhPE9l22pi/IoJx9i1jOebiiTyZ7tuBx+iuuFblmZGPa2BsvgefcWDYqj6MVxB1feJez+2jvbzdTKGb1ejKy16+vcphMf0s6ggzPpXzLTHssPk6ZWSZGXiKWE94P0M7nyKgE4f6NxNrxnGkHqLN4F8VGS28j1k89x/DhuvI4GkGMPO9Vzg73BuM8cKqaUfY8Rv4glhfjEWSUcpblJ+r0nqRUaMtjZPR7z9/BJu375dqwgrAeItYFj1lkr++/TbO6mVJjVje7vvv9BWFhOSfBBMkrK2djo917hlh6Y+QhAkGMdmnm6E1Uq//r6/spCrLkytm6Ylx5fDwNQdzxRcmPRWNkRm8d4eZjAEFsOWvvT8Vwk31S2I3h4L7XqdgEmSeWR+lipZM96I77gwsyKAV3JlnOls3ckSvdhvf/DlInJMie8oLUBJuT2lwDqgPBj07AWiBIZIQVRN8L/roLjqy5nIQve9E4rn0IGkOQPKmJAIdoeBEgiIZPPATRi1AQvEh5Kq4XKQMAAAAAAAAAAAAAAAAAAAAAAAAAUFj+BX/Ghb8RIo33AAAAAElFTkSuQmCC"
+				class="icon"
+			/>
+			<h1>Email</h1>
+			<h4>thejpsinteractclub@gmail.com</h4>
+		</div>
+
+		<div class="card">
+			<img
+				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACg0lEQVR4nO2dwYoTQRCGy/WmvoiIN0VFfQAR3FOeRETwEkXBF/Dsnh29mK4IPojixWO6xgfYvajbMoleTeIm9j8z3wf/aSGZqW+ri0matBkAAAAAAMAQaMp5S4u7luKZpXxkHs0gkvKRpXhqs8Udm5YD6wWpfWApvphHGXRSfDaP+yZLKecs5ZfVC+X/U0o+tRTPTZLUPqleIK+WRybFvL1qnn8KFKbUSf5h7+OKyZDiXf2iRN2k/MYkaL5dMo+T6gXx6jmxj3Gxtg6zD+1NgWIUiczy9do6zLw93OBim4Gk/D3tYW0dZh6TtRc6FHztP96k9iUixBFSDzpEDISIgRAxECIGQsQYjZCNHrpi3+/RbPAaCDGEbAkdUliynCWLDulghgQzZGuYIYUZ4syQ/XbIrL31+3Um/5yzvkf39/WrwUieQ/qCI0QLhIiBEDEQIgZCxECIGAgRAyFiIEQMhIiBEDEQIgZCxECIGAgRYzRCdrFRzs8cNsohZB/QIYUly1my6JAOhnow1LeGGVKYIc4M0d8o52cMG+V6iI/lSb0vOEK0QIgYCBEDIWIgRIzRCFn9Kt3jutng1+DGI4QvqHYHQgod4nyWRYd0MEOC70O2hhlSmCHODNlvh6T8yjx/rZruGtavBiN5DukLjhAtECIGQsRAiBgIEQMhYiBEjH4I4cgjEzvy6MaePsoovcs8X6utw2y2uGAex9WL4dVzvKyFBB5vBQpSqkbmYMkOz5ct5e/Vi+K1onb0asdq98ZYu+OhSZLixfJI6/GIONU9vvsP3aHvq8PfBy4jPtk837NeMC0HNl/cNs9T8/xa4MjUZjfp7iVPl/fW3SMAAAAAAID1n1+GOWwn4w+T2gAAAABJRU5ErkJggg=="
+				class="icon"
+			/>
+
+			<h1>Membership Form</h1>
+			<h4 />
+		</div>
+	</div>
+</div>
+
+<style>
+	hr {
+		background: var(--foreground);
+		border: 2px solid var(--foreground);
+		width: 30%;
+		margin-bottom: 2rem;
+	}
+
+	.container {
+		padding: 8rem 8rem 9rem 8rem;
+	}
+	.title {
+		padding: 0;
+		margin: 0;
+		font-weight: 500;
+		text-align: center;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.flex {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.card {
+		box-shadow: 0px 0px 8px 4px var(--secondary-bg);
+		padding: 1.5rem;
+		width: 250px;
+		border-radius: 6px;
+		text-align: center;
+	}
+
+	.card h1 {
+		font-size: 30px;
+		padding: 0;
+		margin: 0;
+		font-weight: 500;
+		font-family: 'Rubik', sans-serif;
+		overflow-wrap: break-word;
+	}
+
+	.card .icon {
+		width: auto;
+		height: 50px;
+		margin-bottom: 1rem;
+	}
+
+	.card h4 {
+		font-size: 25px;
+		padding: 0;
+		margin: 0;
+		margin-top: 1.5rem;
+		font-weight: 500;
+		font-family: 'Rubik', sans-serif;
+		color: var(--secondary-fg);
+		overflow-wrap: break-word;
+	}
+</style>

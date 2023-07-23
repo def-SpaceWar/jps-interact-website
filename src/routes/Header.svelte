@@ -70,7 +70,7 @@
 	}
 
 	.link {
-		font-size: 1.15rem;
+		font-size: 1.03rem;
 		color: var(--background);
 		margin: 0 1rem 0 1rem;
 		transition: var(--transition-length) ease-in-out;
