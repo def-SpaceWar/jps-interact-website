@@ -1,14 +1,13 @@
-<svelte:head>
-	<title>About - JPS Interact Club</title>
-	<meta name="description" content="Learn more about the JPS Interact Club" />
-</svelte:head>
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import inView from '../inView.js';
 	let animated = false;
-	let animated1 = false;
-	$: animated;
 </script>
+
+<svelte:head>
+	<title>About - JPS Interact Club</title>
+	<meta name="description" content="Learn more about the JPS Interact Club" />
+</svelte:head>
 <h1 class="title">ABOUT US</h1>
 <hr />
 <div class="container">
@@ -47,9 +46,12 @@
 >
 	<h1>Our Board Team</h1>
 	{#if animated}
-		<div transition:fade={{
-			duration: 500
-		}} class="board-members-container">
+		<div
+			transition:fade={{
+				duration: 500
+			}}
+			class="board-members-container"
+		>
 			<div class="board-member">
 				<img src="hero-banner.png" />
 				<h1>Person Name</h1>
@@ -90,8 +92,9 @@
 		border: 2px solid var(--foreground);
 		width: 30%;
 	}
+
 	.container {
-		padding: 0rem 8rem 8rem 8rem;
+		padding: 0rem 20% 8rem 20%;
 	}
 
 	.container p {
@@ -114,6 +117,7 @@
 		color: var(--background);
 		padding: 6rem 8rem 6rem 8rem;
 	}
+
 	.board h1 {
 		padding: 0;
 		margin: 0;
@@ -135,6 +139,7 @@
 		border-radius: 10px;
 		border: 5px double var(--secondary-bg);
 	}
+
 	.board-member img {
 		width: 200px;
 		height: 200px;
@@ -148,6 +153,7 @@
 		padding: 0;
 		font-size: 23px;
 	}
+
 	.board-member h5 {
 		margin: 0;
 		margin-top: 0.1rem;

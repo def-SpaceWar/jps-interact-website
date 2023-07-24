@@ -39,8 +39,9 @@
 	}
 
 	.container {
-		padding: 4rem 8rem 5rem 8rem;
+		padding: 4rem 10% 5rem 10%;
 	}
+
 	.title {
 		padding: 0;
 		margin: 0;
@@ -48,6 +49,7 @@
 		text-align: center;
 		font-family: 'Rubik', sans-serif;
 	}
+
 	#hours {
 		font-family: Arial, Helvetica, sans-serif;
 		border-collapse: collapse;

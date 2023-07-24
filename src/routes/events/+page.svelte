@@ -65,13 +65,14 @@
 		text-align: center;
 		font-family: 'Rubik', sans-serif;
 	}
+
 	.container {
 		padding: 6rem 8rem;
 	}
 
 	.event-container {
 		display: flex;
-    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 
 	.event {
@@ -79,7 +80,7 @@
 		border: 2px solid var(--secondary-bg);
 		padding: 1.2rem;
 		border-radius: 10px;
-    margin-right: 2rem;
+		margin-right: 2rem;
 	}
 
 	.event h1 {
@@ -89,11 +90,13 @@
 		font-size: 35px;
 		font-family: 'Rubik', sans-serif;
 	}
+
 	.flex-container {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
+
 	.flex {
 		display: flex;
 		flex-direction: column;
@@ -124,7 +127,7 @@
 		margin-left: 0.2rem;
 	}
 
-  .location {
+	.location {
 		padding: 0;
 		margin: 0;
 		display: flex;

@@ -54,8 +54,9 @@
 	}
 
 	.container {
-		padding: 8rem 8rem 9rem 8rem;
+		padding: 8rem 10% 9rem 10%;
 	}
+
 	.title {
 		padding: 0;
 		margin: 0;
@@ -65,14 +66,17 @@
 	}
 
 	.flex {
+        width: 100%;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+        align-items: center;
 		flex-wrap: wrap;
 	}
 
 	.card {
 		box-shadow: 0px 0px 8px 4px var(--secondary-bg);
 		padding: 1.5rem;
+        margin: 2%;
 		width: 250px;
 		border-radius: 6px;
 		text-align: center;
