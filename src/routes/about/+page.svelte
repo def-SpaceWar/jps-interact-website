@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-	import inView from '../inView.js';
+	import inView from '../in_view';
+	import BoardMemberCard from './BoardMemberCard.svelte';
 	let animated = false;
 </script>
 
@@ -36,52 +37,23 @@
 </div>
 <div
 	use:inView={{ threshold: 0.3 }}
-	on:enter={() => {
+	on:focusin={() => {
 		animated = true;
 	}}
-	on:exit={() => {
+	on:focusout={() => {
 		animated = false;
 	}}
 	class="board"
 >
 	<h1>Our Board Team</h1>
 	{#if animated}
-		<div
-			transition:fade={{
-				duration: 500
-			}}
-			class="board-members-container"
-		>
-			<div class="board-member">
-				<img src="hero-banner.png" />
-				<h1>Person Name</h1>
-				<h5>Chief Executive Officer</h5>
-			</div>
-			<div class="board-member">
-				<img src="hero-banner.png" />
-				<h1>Person Name</h1>
-				<h5>Chief Executive Officer</h5>
-			</div>
-			<div class="board-member">
-				<img src="hero-banner.png" />
-				<h1>Person Name</h1>
-				<h5>Chief Executive Officer</h5>
-			</div>
-			<div class="board-member">
-				<img src="hero-banner.png" />
-				<h1>Person Name</h1>
-				<h5>Chief Executive Officer</h5>
-			</div>
-			<div class="board-member">
-				<img src="hero-banner.png" />
-				<h1>Person Name</h1>
-				<h5>Chief Executive Officer</h5>
-			</div>
-			<div class="board-member">
-				<img src="hero-banner.png" />
-				<h1>Person Name</h1>
-				<h5>Chief Executive Officer</h5>
-			</div>
+		<div transition:fade={{ duration: 500 }} class="board-members-container">
+			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
+			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
+			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
+			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
+			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
+			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
 		</div>
 	{/if}
 </div>
@@ -105,8 +77,6 @@
 		padding: 0;
 		margin: 0;
 		font-weight: 500;
-		/* background-color: var(--primary);
-		color: var(--background); */
 		padding: 8rem 8rem 0rem 8rem;
 		text-align: center;
 		font-family: 'Rubik', sans-serif;
@@ -127,39 +97,5 @@
 	.board-members-container {
 		display: flex;
 		flex-wrap: wrap;
-	}
-
-	.board-member {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin: 1rem 1rem;
-		padding: 1rem;
-		border-radius: 10px;
-		border: 5px double var(--secondary-bg);
-	}
-
-	.board-member img {
-		width: 200px;
-		height: 200px;
-		object-fit: cover;
-		border-radius: 9999px;
-	}
-
-	.board-member h1 {
-		margin: 0;
-		margin-top: 0.3rem;
-		padding: 0;
-		font-size: 23px;
-	}
-
-	.board-member h5 {
-		margin: 0;
-		margin-top: 0.1rem;
-		font-weight: 400;
-		color: var(--secondary-fg);
-		padding: 0;
-		font-size: 17px;
 	}
 </style>
