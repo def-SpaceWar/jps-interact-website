@@ -1,11 +1,13 @@
 # TODO
 
 - Add Responsiveness To All Pages (Pages Left Are Below)
-  - /
-  - /photos
-  - /resources
-  - /events
-  - /hours
-  - /about
+  - / (DONE)
+  - /photos (DONE)
+  - /resources (DONE)
+  - /events (DONE)
+  - /hours (DONE)
+  - /about (DONE)
+  - Navbar (DONE)
+  - Footer (DONE)
 
-- Make a Dashboard
+- Add a texture in the background of hero

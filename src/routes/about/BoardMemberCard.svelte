@@ -44,4 +44,12 @@
 		padding: 0;
 		font-size: 17px;
 	}
+
+	@media only screen and (max-width: 600px) {
+		.board-member {
+			width: 100%;
+		}
+
+		
+	}
 </style>

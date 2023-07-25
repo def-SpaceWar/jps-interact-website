@@ -10,7 +10,7 @@
 <section class="hero">
 	<div class="left-half">
 		<h1 class="title">JPS Interact Club</h1>
-		<p class="description">The home of community service at John P. Stevens High School.</p>
+		<p class="description">The home of community service at John P. Stevens High School. (PVSA Certified)</p>
 	</div>
 	<div class="right-half">
 		<SlideShow />
@@ -58,5 +58,30 @@
 		justify-content: center;
 		align-items: start;
 		padding: 0 8rem 0 0;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.hero {
+			flex-wrap: wrap;
+			height: auto;
+		}
+
+		.left-half {
+			padding: 2rem 2rem 0 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: start;
+			max-width: 100%;
+		}
+
+		.right-half {
+			padding: 2rem 2rem 4rem 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			max-width: 100%;
+		}
 	}
 </style>

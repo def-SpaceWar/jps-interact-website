@@ -132,4 +132,12 @@
 		cursor: pointer;
 		background: var(--secondary);
 	}
+
+	@media only screen and (max-width: 600px) {
+		.event {
+			width: 100%;
+			margin: 0;
+			margin-bottom: 2rem;
+		}
+	}
 </style>

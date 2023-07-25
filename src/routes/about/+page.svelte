@@ -36,7 +36,7 @@
 	</p>
 </div>
 <div
-	use:inView={{ threshold: 0.3 }}
+	use:inView={{ threshold: 0.05 }}
 	on:focusin={() => {
 		animated = true;
 	}}
@@ -97,5 +97,22 @@
 	.board-members-container {
 		display: flex;
 		flex-wrap: wrap;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.board {
+			padding: 6rem 2rem;
+		}
+
+		.container {
+			padding: 0rem 2rem 8rem 2rem;
+		}
+
+		.title {
+			padding: 5rem 2rem 0rem 2rem;
+		}
+		.board h1 {
+			font-size: 3rem;
+		}
 	}
 </style>

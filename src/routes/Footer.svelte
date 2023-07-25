@@ -4,11 +4,11 @@
 			<h3 class="title">JPS Interact Club</h3>
 			<img src="favicon.png" class="gear" alt="Intaract Gear" />
 		</div>
-		<p class="description">The home of community service at JPS High School (PVSA Certified).</p>
+		<p class="description">The home of community service at JPS High School.</p>
 		<div class="flex social">
 			<img
 				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAAsTAAALEwEAmpwYAAABPklEQVR4nO3WvUseQRTF4SeKmEEIWKgEYmFhm0bS2KWys0iwE2ws0wQE/wUrOy3tUloYO6t0NqksksYinU1IQASRxKxMuMKyvh/7fmy3Bw473Dtzfsvs7rC0ajVmzWOlQS90gs7gDEUD/oIXZdhzfCyNT8YMPIlcwfk/TtHci8YkjsYE/ISpyN2NWipDsw8wgWfYHxF42CXrCbTb3Q3qXruWOkGzTx+b+ID7mrB/2Il10zjuMKcrtPrGbeJPH+BfbNf4ElIvaPZXzEXQOm67zLvDRsybxXmPzL7Q7G94FYFvcV3p32At+i9x0Scv1YFm/8ByBL/Bz6j/xmrUl3BZIyvVhWZf4XUAFrEVV1G/qpmTBoFm/8K7yvH5PupFU9Ci9Jw/4/sQa9Ow0FGcWmjR9PZONPzHsFJx5rVqZWQ9AOWkkdhD+jHfAAAAAElFTkSuQmCC"
-                alt="Email Icon"
+				alt="Email Icon"
 			/>
 
 			<p>thejpsinteractclub@gmail.com</p>
@@ -16,7 +16,7 @@
 		<div class="flex social">
 			<img
 				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAAsTAAALEwEAmpwYAAABvUlEQVR4nM2Wy0oCURjHf67LV0htGymVYtvKtvUUXSCkNwiEUlelzxC09/YG1Tt02wi6y2XaqjjwV8ZhZpzRU/iDYfBcvr/nu5z5YAmJA2mgEOFJa19kdoE28A2MgC7wEeLpar15WkA+jFgMuAaGwC2wyXyYfXeyU5JdX4xgD9jCDttAX8K+Lh1aFByzI7s5PGjLpYtiXFsH1h1jNaDpXhhX0swbQycPwI+Ex2SUXKt4DAYGHEgBVeAJeNe7AiRdYboHNhxjMdk35TRhXwEP4tJRCifAEXCq3yZmxRn7+9KZcKCsDRL8BPZ85o2xwQzhnnRCiaZ0Ej/BMQWtS9gQrcqFYegAZRuiz4pdGM6UXAuLvippwmDWvfz3Sc+BRxuilYgxvbEhmlRWTtWYB4fAF7BmQxTV30Bl4Sdo5i/wp+cWDXMjFXXijrL0WDHs6IRBgp43Uti7N6E6NMnypnc5wKWBd29cgza+Ml5kZH/FPdFSi/EX1IGG10ReMTMthk1yOmXWb0FJATcthg2ysnc1K+Al/bOaYjEPGbl0JMFZCTpxSdPRw0bpe8e9ciPIpUGYnsZkdJQO36yf6oWWgl+fgI+y3MelkQAAAABJRU5ErkJggg=="
-                alt="Instagram Icon"
+				alt="Instagram Icon"
 			/>
 
 			<p>@jps.interact</p>
@@ -137,5 +137,33 @@
 		height: 200px;
 		object-fit: cover;
 		border-radius: 6px;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.footer {
+			display: flex;
+			flex-direction: column;
+			padding: 3rem 2rem;
+		}
+
+		.social p {
+			font-size: 15px;
+		}
+
+		.social img {
+			height: 25px;
+		}
+
+		.quick_links {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			margin-top: 1rem;
+		}
+		.image-section {
+			display: flex;
+			justify-content: start;
+			margin-top: 1rem;
+		}
 	}
 </style>

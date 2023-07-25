@@ -136,4 +136,15 @@
 		display: flex;
 		justify-content: center;
 	}
+
+	@media only screen and (max-width: 600px) {
+		#slideshow {
+			width: 60vw;
+			height: 25vh;
+		}
+
+		.img {
+			width: 60vw;
+		}
+	}
 </style>

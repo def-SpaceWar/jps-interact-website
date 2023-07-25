@@ -48,4 +48,10 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	@media only screen and (max-width: 600px) {
+	.container {
+		padding: 6rem 2rem;
+	}
+	}
 </style>

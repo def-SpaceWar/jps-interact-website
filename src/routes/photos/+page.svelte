@@ -76,6 +76,17 @@
 		overflow: hidden;
 	}
 
+	@media only screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
 
-	
+		.container {
+			padding: 0rem 10% 9rem 10%;
+		}
+
+		.title {
+			padding: 5rem 0rem 0rem 0rem;
+		}
+	}
 </style>
