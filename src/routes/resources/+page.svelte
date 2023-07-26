@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>Resources - JPS Interact Club</title>
-	<meta name="description" content="View your or others hours recorded in the JPS Interact Club." />
+	<meta name="description" content="Access the resources for the JPS Interact Club" />
 </svelte:head>
 
 <div class="container">

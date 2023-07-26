@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>JPS Interact Club</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="The home of community service at John P. Stevens High School." />
 </svelte:head>
 
 <section class="hero">
@@ -17,6 +17,7 @@
 			<button
 				>Learn More <img
 					src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA50lEQVR4nO2VMQrCQBBFU4kXsFAS8A7Bc1hZCNqKYGFp642ieALPoUm8gl7gycAGEtTZzWYLi3wYAps/eczMbjaKevkKSIAzkCuxN96V4rlqEAHYdDTeneIpNUhhTGsg/RET4x3V1ubA0xVSGtOsZYvvJu8VHALEwK36MLAICuETMJW8YBC+AMx6GAjNGcgzqb2TzbABlt4QmoBHVUEraRCtgppnDByAbWuIawX4zkQOn62CEJABcHGZQafdBQyl3xqgM8RV/BOkcPgLp0pInqjQICfCKNMgch4yy82YW0LyY59294pEb8tfVyAUghyOAAAAAElFTkSuQmCC"
+					alt="Learn More Arrow"
 				/>
 			</button>
 		</a>

@@ -40,11 +40,11 @@
 				<p class="link">Service Projects</p>
 			</a>
 		</div>
-		<div class="burger" on:click={() => (dropdown = !dropdown)}>
+		<button class="burger" on:click={() => (dropdown = !dropdown)}>
 			<div class="line" />
 			<div class="line" />
 			<div class="line" />
-		</div>
+		</button>
 		{#if dropdown}
 			<div transition:fade class="dropdown">
 				<a href="/">

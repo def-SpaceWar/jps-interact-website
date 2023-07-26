@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Photos - JPS Interact Club</title>
-	<meta name="description" content="Learn more about the JPS Interact Club" />
+	<meta name="description" content="View photos and memories at the JPS Interact Club" />
 </svelte:head>
 <h1 class="title">PHOTOS</h1>
 <hr />
@@ -16,17 +16,17 @@
 	<div class="photo-container">
 		<div class="column">
 			{#each Array.from(Array(photos_1 + 1).keys()).slice(1) as i}
-				<img src={'/photos/' + i + '.png'} alt="Photo of Club" class="photo" />
+				<img src={'/photos/' + i + '.png'} alt={"Photo of Club #" + i} class="photo" />
 			{/each}
 		</div>
 		<div class="column">
 			{#each Array.from(Array(photos_2 + 1).keys()).slice(photos_1 + 1) as i}
-				<img src={'/photos/' + i + '.png'} alt="Photo of Club" class="photo" />
+				<img src={'/photos/' + i + '.png'} alt={"Photo of Club #" + i} class="photo" />
 			{/each}
 		</div>
 		<div class="column">
 			{#each Array.from(Array(photos_3 + 1).keys()).slice(photos_2 + 1) as i}
-				<img src={'/photos/' + i + '.png'} alt="Photo of Club" class="photo" />
+				<img src={'/photos/' + i + '.png'} alt={"Photo of Club #" + i} class="photo" />
 			{/each}
 		</div>
 	</div>

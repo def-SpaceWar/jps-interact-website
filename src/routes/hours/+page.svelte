@@ -28,7 +28,7 @@
 			<td>2</td>
 		</tr>
 	</table> -->
-	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTn8zkNgGOMNH3taCzMY2sGl99fDgzUJp1A4MsZiMi8bg1W4oO75_Dj8dAcvoX-SAOAn2oZS91JD8kU/pubhtml?widget=true&amp;headers=false"></iframe>
+	<iframe title="JPS Interact Club Hours Spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTn8zkNgGOMNH3taCzMY2sGl99fDgzUJp1A4MsZiMi8bg1W4oO75_Dj8dAcvoX-SAOAn2oZS91JD8kU/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
 
 <style>
@@ -54,28 +54,5 @@
 		font-weight: 500;
 		text-align: center;
 		font-family: 'Rubik', sans-serif;
-	}
-
-	#hours {
-		font-family: Arial, Helvetica, sans-serif;
-		border-collapse: collapse;
-		width: 100%;
-	}
-
-	#hours td,
-	#hours th {
-		padding: 0.7rem;
-	}
-
-	#hours tr:nth-child(even) {
-		background-color: #f2f2f2;
-	}
-
-	#hours th {
-		padding-top: 12px;
-		padding-bottom: 12px;
-		text-align: left;
-		background-color: var(--secondary);
-		color: white;
 	}
 </style>
