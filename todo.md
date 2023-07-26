@@ -1,3 +1,3 @@
 # TODO
 
-- Add a section for PVSA
+- Finish Service Projects
