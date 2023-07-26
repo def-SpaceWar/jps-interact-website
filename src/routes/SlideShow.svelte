@@ -9,8 +9,16 @@
 
 	const images: ImageData[] = [
 		{
-			src: 'banner.png',
-			alt: 'Interact Club Banner'
+			src: '/photos/14.png',
+			alt: 'Planting Plants'
+		},
+		{
+			src: '/photos/15.png',
+			alt: 'Working with a Pipe'
+		},
+		{
+			src: '/photos/20.png',
+			alt: 'Group Photo'
 		},
 		{
 			src: 'hero-banner.png',

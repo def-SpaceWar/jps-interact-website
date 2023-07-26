@@ -10,7 +10,9 @@
 <section class="hero">
 	<div class="left-half">
 		<h1 class="title">JPS Interact Club</h1>
-		<p class="description">The home of community service at John P. Stevens High School. (PVSA Certified)</p>
+		<p class="description">
+			The home of community service at John P. Stevens High School. (PVSA Certified)
+		</p>
 	</div>
 	<div class="right-half">
 		<SlideShow />
@@ -21,9 +23,17 @@
 	.hero {
 		padding: 0;
 		margin: 0;
-		height: 70vh;
+		height: 89vh;
 		width: 100%;
 		background: var(--secondary);
+		opacity: 1;
+		background-image: linear-gradient(135deg, #00b4e7 25%, transparent 25%),
+			linear-gradient(225deg, #00b4e7 25%, transparent 25%),
+			linear-gradient(45deg, #00b4e7 25%, transparent 25%),
+			linear-gradient(315deg, #00b4e7 25%, #00a3d4 25%);
+		background-position: 10px 0, 10px 0, 0 0, 0 0;
+		background-size: 30px 30px;
+		background-repeat: repeat;
 		display: flex;
 		justify-content: center;
 		align-items: center;
