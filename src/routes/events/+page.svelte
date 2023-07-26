@@ -8,18 +8,18 @@
 </svelte:head>
 
 <div class="container">
-	<h1 class="title">Events</h1>
+	<h1 class="title">EVENTS</h1>
 	<hr />
 	<div class="event-container">
 		<Event
 			title="Website Development"
 			date="Sat, May 13th"
 			time="10:00 AM - 2:00 PM EST"
-            attendees={10}
+			attendees={10}
 			description="This event is for developing a website for the
             JPS Interact Club. We need a skilled developer and we will
             compensate with volunteer hours."
-            on:click={() => alert("hi")}
+			on:click={() => alert('hi')}
 		/>
 	</div>
 </div>
@@ -50,8 +50,8 @@
 	}
 
 	@media only screen and (max-width: 600px) {
-	.container {
-		padding: 6rem 2rem;
-	}
+		.container {
+			padding: 6rem 2rem;
+		}
 	}
 </style>

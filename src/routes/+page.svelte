@@ -11,8 +11,15 @@
 	<div class="left-half">
 		<h1 class="title">JPS Interact Club</h1>
 		<p class="description">
-			The home of community service at John P. Stevens High School. (PVSA Certified)
+			The home of community service at John P. Stevens High School.
 		</p>
+		<a href="/about" class="learn-more">
+			<button
+				>Learn More <img
+					src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA50lEQVR4nO2VMQrCQBBFU4kXsFAS8A7Bc1hZCNqKYGFp642ieALPoUm8gl7gycAGEtTZzWYLi3wYAps/eczMbjaKevkKSIAzkCuxN96V4rlqEAHYdDTeneIpNUhhTGsg/RET4x3V1ubA0xVSGtOsZYvvJu8VHALEwK36MLAICuETMJW8YBC+AMx6GAjNGcgzqb2TzbABlt4QmoBHVUEraRCtgppnDByAbWuIawX4zkQOn62CEJABcHGZQafdBQyl3xqgM8RV/BOkcPgLp0pInqjQICfCKNMgch4yy82YW0LyY59294pEb8tfVyAUghyOAAAAAElFTkSuQmCC"
+				/>
+			</button>
+		</a>
 	</div>
 	<div class="right-half">
 		<SlideShow />
@@ -68,6 +75,31 @@
 		justify-content: center;
 		align-items: start;
 		padding: 0 8rem 0 0;
+	}
+
+	.learn-more {
+		margin: 0;
+		text-decoration: none;
+		margin-top: 1rem;
+	}
+
+	.learn-more button {
+		padding: 0.6rem 1rem;
+		background: var(--secondary-fg);
+		font-size: 17px;
+		display: flex;
+		align-items: center;
+		border: none;
+	}
+
+	.learn-more button img {
+		margin-left: 0.4rem;
+		height: 20px;
+	}
+
+	.learn-more button:hover {
+		cursor: pointer;
+		background-color: var(--primary-fg);
 	}
 
 	@media only screen and (max-width: 600px) {

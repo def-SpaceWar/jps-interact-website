@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>About - JPS Interact Club</title>
+	<title>About Us - JPS Interact Club</title>
 	<meta name="description" content="Learn more about the JPS Interact Club" />
 </svelte:head>
 <h1 class="title">ABOUT US</h1>

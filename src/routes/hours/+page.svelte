@@ -4,9 +4,9 @@
 </svelte:head>
 
 <div class="container">
-	<h1 class="title">Hours</h1>
+	<h1 class="title">HOURS</h1>
 	<hr />
-	<table id="hours">
+	<!-- <table id="hours">
 		<tr>
 			<th>Grade</th>
 			<th>Name</th>
@@ -27,7 +27,8 @@
 			<td>Test Nam</td>
 			<td>2</td>
 		</tr>
-	</table>
+	</table> -->
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTn8zkNgGOMNH3taCzMY2sGl99fDgzUJp1A4MsZiMi8bg1W4oO75_Dj8dAcvoX-SAOAn2oZS91JD8kU/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
 
 <style>
@@ -36,6 +37,11 @@
 		border: 2px solid var(--foreground);
 		width: 30%;
 		margin-bottom: 2rem;
+	}
+
+	iframe {
+		width: 100%;
+		height: 70vh;
 	}
 
 	.container {

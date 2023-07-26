@@ -36,6 +36,9 @@
 			<a href="/photos">
 				<p class="link">Photos</p>
 			</a>
+			<a href="/service-projects">
+				<p class="link">Service Projects</p>
+			</a>
 		</div>
 		<div class="burger" on:click={() => (dropdown = !dropdown)}>
 			<div class="line" />
@@ -64,6 +67,9 @@
 				</a>
 				<a href="/photos">
 					<p class="link">Photos</p>
+				</a>
+				<a href="/service-projects">
+					<p class="link">Service Projects</p>
 				</a>
 			</div>
 		{/if}

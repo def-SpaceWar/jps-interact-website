@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="container">
-	<h1 class="title">Resources</h1>
+	<h1 class="title">RESOURCES</h1>
 	<hr />
 	<div class="flex">
 		<Card
@@ -39,7 +39,7 @@
 	hr {
 		background: var(--foreground);
 		border: 2px solid var(--foreground);
-		width: 30%;
+		width: 40%;
 		margin-bottom: 2rem;
 	}
 

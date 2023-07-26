@@ -10,7 +10,7 @@
 	<title>Photos - JPS Interact Club</title>
 	<meta name="description" content="Learn more about the JPS Interact Club" />
 </svelte:head>
-<h1 class="title">Photos</h1>
+<h1 class="title">PHOTOS</h1>
 <hr />
 <div class="container">
 	<div class="photo-container">
