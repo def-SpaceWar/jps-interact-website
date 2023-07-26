@@ -25,17 +25,23 @@
 	<div class="quick_links">
 		<div class="link-container">
 			<h2>QUICK LINKS</h2>
-			<div>
-				<a href="/"><p>Home</p></a>
-				<a href="/about"><p>About Us</p></a>
-				<a href="/events"><p>Events</p></a>
-				<a href="/resources"><p>Resources</p></a>
-				<a href="/photos"><p>Photos</p></a>
-			</div>
+			<a href="/"><p>Home</p></a>
+			<a href="/about"><p>About Us</p></a>
+			<a href="/hours"><p>Hours</p></a>
+			<a href="/events"><p>Events</p></a>
+			<a href="/resources"><p>Resources</p></a>
 		</div>
 	</div>
-	<div class="image-section">
-		<img src="hero-banner.png" alt="Replace This With Links" />
+	<div class="quick_links">
+		<div class="link-container">
+			<div>
+				<a href="/photos"><p>Photos</p></a>
+				<a href="/service-projects"><p>Service Projects</p></a>
+			</div>
+			<h2 style="padding-top: 1rem">CREDITS (Website Developers)</h2>
+			<a href="https://github.com/def-SpaceWar"><p>Aryan Ahire</p></a>
+			<a href="https://github.com/Taptaplit"><p>Vismay Patel</p></a>
+		</div>
 	</div>
 </div>
 
@@ -45,27 +51,12 @@
 		background-color: var(--secondary-bg);
 		color: var(--footer-text);
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-columns: minmax(0, 1fr) minmax(0, 0.4fr) minmax(0, 0.4fr);
 	}
 
 	.gear {
 		height: 50px;
 	}
-	/* .gear {
-		animation: rotate ease-in-out 5s infinite;
-	}
-
-	@keyframes rotate {
-		0% {
-			rotate: 0deg;
-		}
-		50% {
-			rotate: 360deg;
-		}
-		100% {
-			rotate: 360deg;
-		}
-	} */
 
 	.title {
 		font-weight: 500;
@@ -76,6 +67,7 @@
 		color: var(--logo-color);
 		font-family: 'Rubik', sans-serif;
 	}
+
 	.flex {
 		display: flex;
 		justify-content: start;
@@ -88,11 +80,13 @@
 		font-size: 16px;
 		color: var(--light-gray);
 	}
+
 	.quick_links {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.quick_links h2 {
 		font-weight: 600;
 		font-size: 14px;
@@ -127,18 +121,6 @@
 		margin: 0.7rem 0;
 	}
 
-	.image-section {
-		display: flex;
-		justify-content: end;
-	}
-
-	.image-section img {
-		width: 80%;
-		height: 200px;
-		object-fit: cover;
-		border-radius: 6px;
-	}
-
 	@media only screen and (max-width: 600px) {
 		.footer {
 			display: flex;
@@ -158,11 +140,6 @@
 			display: flex;
 			flex-direction: column;
 			align-items: start;
-			margin-top: 1rem;
-		}
-		.image-section {
-			display: flex;
-			justify-content: start;
 			margin-top: 1rem;
 		}
 	}
