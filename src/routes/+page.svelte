@@ -66,7 +66,7 @@
 		font-size: 1.5rem;
 		font-weight: 500;
 		margin: 0;
-		color: var(--secondary-fg);
+		color: var(--secondary-bg);
 	}
 
 	.right-half {
