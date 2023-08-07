@@ -11,7 +11,7 @@
 	{#if $page.error}
 		<p>{$page.error.message}</p>
 	{:else}
-		<p>An error has occured.</p>
+		<p>An error has occurred*.</p>
 	{/if}
 </div>
 
