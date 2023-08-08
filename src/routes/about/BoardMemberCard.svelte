@@ -19,6 +19,7 @@
 		margin: 1rem 1rem;
 		padding: 1rem;
 		border-radius: 10px;
+		width: 220px;
 		border: 5px double var(--secondary-bg);
 	}
 
@@ -34,13 +35,14 @@
 		margin-top: 0.3rem;
 		padding: 0;
 		font-size: 23px;
+		text-align: center;
 	}
 
 	.board-member h5 {
 		margin: 0;
 		margin-top: 0.1rem;
-		font-weight: 400;
-		color: var(--secondary-fg);
+		font-weight: 500;
+		color: var(--primary-fg);
 		padding: 0;
 		font-size: 17px;
 	}

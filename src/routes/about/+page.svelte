@@ -12,29 +12,72 @@
 <h1 class="title">ABOUT US</h1>
 <hr />
 <div class="container">
+	<p>J.P. Stevens High School Interact Club: Where Service, Leadership, and Community Collide!</p>
+
 	<p>
-		The Interact Club is a subset of the Rotary club that aims to provide service and leadership
-		opportunities to high school students. Students can participate in a variety of volunteering
-		opportunities ranging from assisting in marches to organizing school events. Club officers gain
-		leadership skills by managing meetings and organizing events.
+		The Interact Club at J.P. Stevens High School is a vibrant and purpose-driven student
+		organization affiliated with Rotary International. Committed to empowering young minds, the club
+		offers diverse opportunities for service, leadership, and personal growth. Through a wide array
+		of engaging projects and initiatives, Interact Club members actively contribute to their local
+		and global communities, fostering understanding, compassion, and positive change.
 	</p>
 
 	<p>
-		Club membership varies greatly. They can draw from the student body of a single high school or
-		from two or more high schools in the same community. Each year, Interact clubs complete
-		community service projects, many of which furthers international understanding and goodwill.
+		Are you ready to make a meaningful impact? Look no further than the J.P. Stevens High School
+		Interact Club – your gateway to a world of service, leadership, and personal growth. As a proud
+		subset of Rotary International, we're dedicated to nurturing the next generation of
+		compassionate change-makers.
 	</p>
-
+	<h1 class="sub-title">🌟 What Sets Us Apart? 🌟</h1>
+	<h3 class="sub-heading">Diversity in Opportunity</h3>
 	<p>
-		Interact is Rotary International's service club for young people ages 12 to 18. Interact clubs
-		are sponsored by individual Rotary clubs, which provide support and guidance, but they are
-		self-governing and self-supporting. Through these efforts, Interactors develop a network of
-		friendships with local and overseas clubs and learn the importance of developing leadership
-		skills and personal integrity, demonstrating helpfulness and respect for others, understanding
-		the value of individual responsibility and hard work and advancing international understanding
-		and goodwill.
+		With over 20 distinct and unique avenues for involvement, every member of our Interact Club
+		finds their perfect fit. From lending a hand in local marches to spearheading school-wide
+		events, you'll have the chance to immerse yourself in a variety of impactful projects.
 	</p>
+	<h3 class="sub-heading">Presidential Volunteer Service Award Certified</h3>
+	<p>
+		Our commitment to service excellence has earned us the prestigious Presidential Volunteer
+		Service Award certification. This means your dedication won't go unnoticed – it will be
+		recognized on a national stage, showcasing your outstanding contributions to the community.
+	</p>
+	<h1 class="sub-title">🤝 Join Us, Be A Leader 🤝</h1>
+	<h3 class="sub-heading">Leadership Redefined</h3>
+	<p>
+		As a member of the J.P. Stevens Interact Club, you won't just follow the leader – you'll become
+		one. Our club officers gain invaluable leadership skills by steering meetings and orchestrating
+		events, setting the stage for a future filled with confident decision-making.
+	</p>
+	<h3 class="sub-heading">Community Unity</h3>
+	<p>
+		Our membership extends beyond the confines of J.P. Stevens High School, drawing students from
+		neighboring institutions to create a dynamic, collaborative environment. Together, we're a
+		powerhouse of positivity, actively transforming our community and beyond.
+	</p>
+	<h1 class="sub-title">🌎 Connecting Beyond Borders 🌎</h1>
+	<h3 class="sub-heading">Global Perspective</h3>
+	<p>
+		Interact isn't just a local endeavor – it's a worldwide movement. Through partnerships with
+		Rotary clubs, we forge international friendships, fostering a deep appreciation for diverse
+		cultures and perspectives.
+	</p>
+	<h3 class="sub-heading">Core Values in Action</h3>
+	<p>
+		By embracing personal integrity, demonstrating helpfulness, and showing respect for others,
+		you'll embody the very essence of what it means to be an Interactor. Your dedication will
+		contribute to advancing international understanding and goodwill, leaving a lasting legacy of
+		positive change.
+	</p>
+	<p class="other-text">
+		Ready to seize your moment and make a difference? Join the J.P. Stevens High School Interact
+		Club today, where service, leadership, and community collide in a symphony of impact and
+		inspiration.
+	</p>
+	<a href="https://classroom.google.com/c/NDkyMjY1NjMyMTg4?cjc=vqq5njd">
+		Join Here
+	</a>
 </div>
+
 <div
 	use:inView={{ threshold: 0.05 }}
 	on:focusin={() => {
@@ -45,15 +88,14 @@
 	}}
 	class="board"
 >
-	<h1>Our Board Team</h1>
+	<h1>Meet the Executive Board</h1>
 	{#if animated}
 		<div transition:fade={{ duration: 500 }} class="board-members-container">
-			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
-			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
-			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
-			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
-			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
-			<BoardMemberCard name="Jeet Patel" image="hero-banner.png" title="Chief Executive Officer" />
+			<BoardMemberCard name="Hassan Rizwan" image="hassan.png" title="Co-President" />
+			<BoardMemberCard name="Arnav Sadeesh" image="arnav.png" title="Co-President" />
+			<BoardMemberCard name="Dhruba Bhattacharjee" image="dhruba.png" title="Vice President" />
+			<BoardMemberCard name="Janvi Mudnaik" image="janvi.png" title="Secretary" />
+			<BoardMemberCard name="Ms. Susan Kacani" image="ms-susan.png" title="Advisor" />
 		</div>
 	{/if}
 </div>
@@ -66,7 +108,7 @@
 	}
 
 	.container {
-		padding: 0rem 20% 8rem 20%;
+		padding: 0rem 15% 8rem 15%;
 	}
 
 	.container p {
@@ -80,6 +122,35 @@
 		padding: 8rem 8rem 0rem 8rem;
 		text-align: center;
 		font-family: 'Rubik', sans-serif;
+	}
+
+	.sub-title {
+		padding: 0;
+		margin: 0;
+		margin-top: 3rem;
+		font-weight: 500;
+		text-align: left;
+		font-size: 35px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.sub-heading {
+		padding: 0;
+		margin: 0;
+		margin-top: 1.5rem;
+		margin-bottom: -0.6rem;
+		font-weight: 500;
+		text-align: left;
+		font-size: 25px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.other-text {
+		margin-top: 2rem;
+	}
+
+	a {
+		font-size: 20px;
 	}
 
 	.board {

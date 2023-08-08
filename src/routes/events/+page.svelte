@@ -12,14 +12,13 @@
 	<hr />
 	<div class="event-container">
 		<Event
-			title="Website Development"
-			date="Sat, May 13th"
-			time="10:00 AM - 2:00 PM EST"
-			attendees={10}
-			description="This event is for developing a website for the
-            JPS Interact Club. We need a skilled developer and we will
-            compensate with volunteer hours."
-			on:click={() => alert('hi')}
+			title="Hands of Hope"
+			date="1st & 3rd Sat every month"
+			time="9:00 AM - 1:00 PM EST"
+			location="2136 Woodbridge Ave, Edison, NJ"
+			attendees={12}
+			description="This event is for volunteering at the Hands of Hope Soup Kitchen. Please sign up on the spreadsheet linked down below. "
+			on:click={() => window.location.replace("https://docs.google.com/spreadsheets/d/1-dxrbRbhkO1qHpRTeBGN3__kBufaYeOP0NuwhInuhkA/edit#gid=0")}
 		/>
 	</div>
 </div>

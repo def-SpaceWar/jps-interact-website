@@ -4,6 +4,7 @@
     export let time: string;
     export let attendees: number;
     export let description: string;
+    export let location: string;
 </script>
 
 <div class="event">
@@ -29,7 +30,7 @@
 					src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVR4nK3UvUuWURzG8Y8VJYhBGSq4JL1OLkkENhWk0OAQDa0aERVR4VIgFiZSBEljtOcmUmqFWy+DQUFb0RsU9G/Egd8NhxuentPj810O1+9c98W5z8uP5mzFcVzDXIwj2GKTnMUXrOEWLsT4Ap9xptXg+3iNQw3mD+Mt7v1v8NVY3fYmvh14hculwX34iV2F/p7w95aYp3CnVhvGS/yO8UhtfhY3SsLXcDTTac+/4wQ6cTL0wcxzDKsl4Z/Qn+kFTNQ85/Ew0/3xXVPeYX+mF2PVOUk/zfQBfCwJX4xfr0g34XHN8wSXMn0KyyXht+NQK7bFOazgZuztatQrUn26JHwYb2q1DozhOkZD52xgqCS8Az8wUGLGYLSIYqYxX+h9VHrHK3bHg9lZ8Dp/oVsLjetuE0+66zNaoDte4t4G8/vwDV1aZALPGxz6Os7ZJM8wWatdwZI20Be/X21Pag1fsUebGMeH6PHvcbpdwRXpZvzBg3YHJ1IvuVjrKf/kL8wmQG+f94z4AAAAAElFTkSuQmCC" alt="Location Icon"
 				/>
 
-				<span>JPS High School</span>
+				<span>{location}</span>
 			</p>
 			<p class="attendees">
 				<img
@@ -67,13 +68,13 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		margin-top: 1rem;
 	}
 
 	.flex {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		margin-top: 0.6rem;
 	}
 
 	.date {
@@ -97,6 +98,7 @@
 
 	span {
 		margin-left: 0.2rem;
+		font-size: 17px;
 	}
 
 	.location {
