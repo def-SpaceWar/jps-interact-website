@@ -4,7 +4,7 @@
 			<h3 class="title">JPS Interact Club</h3>
 			<img src="favicon.png" class="gear" alt="Intaract Gear" />
 		</div>
-		<p class="description">The home of community service at JPS High School.</p>
+		<p class="description">The home of community service at JPS High School where service, leadership, and community collide!</p>
 		<div class="flex social">
 			<img
 				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAAsTAAALEwEAmpwYAAABPklEQVR4nO3WvUseQRTF4SeKmEEIWKgEYmFhm0bS2KWys0iwE2ws0wQE/wUrOy3tUloYO6t0NqksksYinU1IQASRxKxMuMKyvh/7fmy3Bw473Dtzfsvs7rC0ajVmzWOlQS90gs7gDEUD/oIXZdhzfCyNT8YMPIlcwfk/TtHci8YkjsYE/ISpyN2NWipDsw8wgWfYHxF42CXrCbTb3Q3qXruWOkGzTx+b+ID7mrB/2Il10zjuMKcrtPrGbeJPH+BfbNf4ElIvaPZXzEXQOm67zLvDRsybxXmPzL7Q7G94FYFvcV3p32At+i9x0Scv1YFm/8ByBL/Bz6j/xmrUl3BZIyvVhWZf4XUAFrEVV1G/qpmTBoFm/8K7yvH5PupFU9Ci9Jw/4/sQa9Ow0FGcWmjR9PZONPzHsFJx5rVqZWQ9AOWkkdhD+jHfAAAAAElFTkSuQmCC"
@@ -75,7 +75,7 @@
 	}
 
 	.description {
-		width: 90%;
+		width: 60%;
 		font-weight: 400;
 		font-size: 16px;
 		color: var(--light-gray);
@@ -115,6 +115,7 @@
 	.social p {
 		margin: 0;
 		margin-left: 0.5rem;
+		font-size: 17px;
 	}
 
 	.social {

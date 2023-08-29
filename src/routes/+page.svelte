@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>JPS Interact Club</title>
+	<title>Home - JPS Interact Club</title>
 	<meta name="description" content="The home of community service at John P. Stevens High School." />
 </svelte:head>
 

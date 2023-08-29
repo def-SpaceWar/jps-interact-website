@@ -3,7 +3,7 @@
 
 <svelte:head>
 	<title>Service Projects - JPS Interact Club</title>
-	<meta name="description" content="Learn more about the JPS Interact Club" />
+	<meta name="description" content="Learn more about JPS Interact Club's partners and opportunities!" />
 </svelte:head>
 <h1 class="title">Service Projects</h1>
 <hr />
@@ -219,6 +219,153 @@
 			https://elijahspromise.org
 		</a>
 	</p>
+
+	<h1 class="sub-title">Community Food Bank of NJ</h1>
+	<p>
+		The Community Food Bank of New Jersey is a vital resource dedicated to combating food insecurity within the community. For participation, individuals are required to visit the food bank independently and must be at least 16 years of age. This opportunity allows motivated individuals to contribute personally to the fight against hunger and support those in need. Further details and guidance on how to participate will be provided during club meetings, ensuring a coordinated and impactful involvement with the Community Food Bank of NJ.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/cfbnj.png" alt="CFBNJ Logo" class="img" />
+	<p>
+		For more information visit: <a href="https://cfbnj.org">
+			https://cfbnj.org
+		</a>
+	</p>
+	
+	<h1 class="sub-title">Color a Smile</h1>
+	<p>
+		"Color a Smile" is a nonprofit organization dedicated to brightening the lives of others through the power of art and kindness. Established in 1990, the organization brings joy to senior citizens, troops overseas, and individuals in need by distributing cheerful drawings. Every month, thousands of these vibrant artworks are lovingly mailed to recipients on our mailing list, creating countless smiles and uplifting spirits. People of all ages, from kids and teens to adults, are invited to volunteer and contribute their creativity to this impactful mission. By coloring and sharing these drawings, volunteers become ambassadors of happiness, spreading positivity far and wide. Since its inception, "Color a Smile" has generously shared millions of these heartwarming creations, embodying the ethos that even a small gesture can make a significant difference.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/color-a-smile.png" alt="Color A Smile Logo" class="img" />
+	<p>
+		For more information visit: <a href="https://colorasmile.org">
+			https://colorasmile.org
+		</a>
+	</p>
+
+	<h1 class="sub-title">RecyclemyBattery</h1>
+	<p>
+		"RecyclemyBattery" is a dedicated non profit organization that empowers individuals to make a positive impact on the environment through the responsible disposal of batteries. By providing convenient battery bins for donation, the organization offers a simple yet impactful way to contribute to a more sustainable future. Donors can safely and responsibly dispose of their batteries, knowing that each contribution is a step towards reducing environmental harm. With a commitment to environmental preservation, "RecyclemyBattery" collects and recycles batteries to prevent hazardous waste from ending up in landfills or causing harm to ecosystems. The organization's battery bin initiative ensures that the recycling process is accessible and hassle-free, making it easy for individuals to play a role in protecting our planet.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/recyclebattery.png" alt="RecyclemyBattery Logo" class="img" />
+	<p>
+		For more information visit: <a href="https://recyclemybattery.org/">
+			https://recyclemybattery.org
+		</a>
+	</p>
+
+	<h1 class="sub-title">Veterans' home at Menlo Park</h1>
+	<p>
+		The New Jersey Veterans' Home at Menlo Park is a distinguished institution dedicated to honoring and serving our military veterans, their spouses, and Gold Star Parents. Guided by a mission rooted in excellence and respect, the home provides resident-directed long-term care that upholds dignity, independence, and professional collaboration. Volunteers play an essential role in enhancing the lives of the residents, with opportunities to contribute on weekends, offering their time and compassion to create meaningful experiences and a supportive environment for those who have served our nation.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/veterans.png" alt="NJ Veterans Memorial Home At Menlo Park Logo" class="img" />
+	<p>
+		For more information visit: <a href="https://www.nj.gov/military/veterans/memorial-homes/menlo-park/">
+			https://www.nj.gov/military/veterans/memorial-homes/menlo-park
+		</a>
+	</p>
+
+	<h1 class="sub-title">Refugee Assistance Partners</h1>
+	<p>
+		Refugee Assistance Partners is a compassionate interfaith alliance of communities and individuals, dedicated to aiding refugees who have been resettled in and around Union County, New Jersey. With a mission rooted in preserving refugees' dignity and uniqueness, the organization has been a steadfast support since its establishment in 2015. Volunteers play an integral role in this noble endeavor, contributing to various aspects of refugees' lives by helping them achieve self-sufficiency. From housing to education, language skills, employment, and dispelling misconceptions through accurate information sharing and public events, Refugee Assistance Partners embody a spirit of empathy and solidarity in assisting over 350 refugees from diverse regions, fostering a sense of belonging and renewal.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/rap.png" alt="RAP Logo" class="img" />
+	<p>
+		For more information visit: <a href=" https://www.refugeeassistancepartnersnj.org/">
+			https://www.refugeeassistancepartnersnj.org
+		</a>
+	</p>
+
+	<h1 class="sub-title">Whispering Knolls</h1>
+	<p>
+		Whispering Knolls is a retirement center for assisted living that offers a nurturing haven for senior citizens seeking comfort and care. Situated within its serene embrace, residents find a supportive environment that fosters well-being, companionship, and a sense of community. Volunteers play a vital role in enriching the lives of these residents, extending warmth and companionship during the weekends. Through their selfless efforts, volunteers create meaningful interactions and offer assistance, ensuring that the residents' needs are met while brightening their days with genuine connections. The volunteers' dedication extends beyond direct interactions, as they also craft handcrafted cards and organize events that bring joy, laughter, and shared experiences to the seniors, creating a tapestry of support and compassion that enhances the quality of life at Whispering Knolls.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/whispering.png" alt="Whispering Knolls Logo" class="img" />
+	<p>
+		For more information visit: <a href="https://www.whisperingknoll.org/">
+			https://www.whisperingknoll.org
+		</a>
+	</p>
+
+	<h1 class="sub-title">Center for Hope Hospice</h1>
+	<p>
+		The Center for Hope Hospice is a compassionate haven that provides end-of-life care and support to individuals facing terminal illnesses. With a focus on enhancing quality of life and ensuring comfort, the center offers a serene and caring environment for patients and their families during challenging times. J.P. Stevens Interact Club members extend their kindness by crafting heartfelt cards and organizing thoughtful events for the hospice residents, creating moments of connection, companionship, and solace that bring comfort and uplift spirits amidst the journey of those in need.
+	</p>
+	<!-- <p>
+		Embracing both tradition and technology, the club's dedication takes two distinct forms:
+		handcrafted cards meticulously designed with care, as well as creatively crafted online cards.
+		Members pour their creativity and compassion into every card, infusing them with personalized
+		messages that express gratitude, well-wishes, and appreciation. These holiday cards find their
+		way to diverse organizations, sharing love and positivity with recipients ranging from veterans
+		to seniors, spreading joy to those who may be in need of a smile. The Holiday Cards initiative
+		beautifully encapsulates the J.P. Stevens Interact Club's commitment to making a positive impact
+		through meaningful gestures, one heartfelt message at a time.
+	</p> -->
+	<img src="/service-projects/cfhh.png" alt="CFHH Logo" class="img" />
+	<p>
+		For more information visit: <a href="https://cfhh.org/">
+			https://cfhh.org
+		</a>
+	</p>
 </div>
 
 <style>
@@ -261,30 +408,6 @@
 
 	.pvsa-table {
 		width: 100%;
-	}
-
-	.sub-title-no-top {
-		padding: 0;
-		margin: 0;
-		font-weight: 500;
-		text-align: left;
-		font-size: 35px;
-		font-family: 'Rubik', sans-serif;
-	}
-
-	.sub-heading {
-		padding: 0;
-		margin: 0;
-		margin-top: 1.5rem;
-		margin-bottom: -0.6rem;
-		font-weight: 500;
-		text-align: left;
-		font-size: 25px;
-		font-family: 'Rubik', sans-serif;
-	}
-
-	.other-text {
-		margin-top: 2rem;
 	}
 
 	.engage-text {

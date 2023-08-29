@@ -19,13 +19,15 @@
 				<img src={'/photos/' + i + '.png'} alt={"Photo of Club #" + i} class="photo" />
 			{/each}
 		</div>
+		
 		<div class="column">
-			{#each Array.from(Array(photos_2 + 1).keys()).slice(photos_1 + 1) as i}
+			{#each Array.from(Array(photos_3 + 1).keys()).slice(photos_2 + 1) as i}
 				<img src={'/photos/' + i + '.png'} alt={"Photo of Club #" + i} class="photo" />
 			{/each}
 		</div>
+
 		<div class="column">
-			{#each Array.from(Array(photos_3 + 1).keys()).slice(photos_2 + 1) as i}
+			{#each Array.from(Array(photos_2 + 1).keys()).slice(photos_1 + 1) as i}
 				<img src={'/photos/' + i + '.png'} alt={"Photo of Club #" + i} class="photo" />
 			{/each}
 		</div>
