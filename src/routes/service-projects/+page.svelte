@@ -10,6 +10,7 @@
 </svelte:head>
 <h1 class="title">Service Projects</h1>
 <hr />
+<p class="des">If you're aware of organizations to reach out to, run community initiatives, or wish for us to engage in specific charitable causes, then please contact us at thejpsinteractclub@gmail.com. We're eager to collaborate and make a positive impact together!</p>
 <div class="container">
 	<div class="box">
 		<a href="/service-projects/pvsa">
@@ -181,6 +182,15 @@
 </div>
 
 <style>
+
+	.des {
+		text-align: center;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 60%;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
 	hr {
 		background: var(--foreground);
 		border: 2px solid var(--foreground);
