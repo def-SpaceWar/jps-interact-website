@@ -11,7 +11,7 @@
 				<h1 class="name">JPS INTERACT CLUB</h1>
 			</a>
 			<a href="/">
-				<img src="title-icon.png" alt="Interact Club's Logo" id="interact_gear" />
+				<!-- <img src="title-icon.png" alt="Interact Club's Logo" id="interact_gear" /> -->
 			</a>
 		</div>
 		<div class="links-container">
@@ -102,7 +102,7 @@
 		font-size: 2rem;
 		margin-top: 1.3rem;
 		margin-bottom: 1.3rem;
-		color: var(--nav-title-fg);
+		color: var(--primary-nav);
 	}
 
 	.links-container {
@@ -113,13 +113,13 @@
 
 	.link {
 		font-size: 1.03rem;
-		color: var(--background);
+		color: var(--secondary-nav);
 		margin: 0 1rem 0 1rem;
 		transition: var(--transition-length) ease-in-out;
 	}
 
 	.link:hover {
-		color: var(--nav-hover-fg);
+		color: white;
 		transition: var(--transition-length) ease-in-out;
 	}
 

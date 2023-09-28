@@ -42,7 +42,7 @@
 		margin: 0;
 		margin-top: 0.1rem;
 		font-weight: 500;
-		color: var(--primary-fg);
+		color: var(--primary-fg-2);
 		padding: 0;
 		font-size: 17px;
 	}
