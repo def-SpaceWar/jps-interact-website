@@ -11,7 +11,6 @@
 				<h1 class="name">JPS INTERACT CLUB</h1>
 			</a>
 			<a href="/">
-				<img src="title-icon.png" alt="Interact Club's Logo" id="interact_gear" />
 			</a>
 		</div>
 		<div class="links-container">
@@ -102,7 +101,7 @@
 		font-size: 2rem;
 		margin-top: 1.3rem;
 		margin-bottom: 1.3rem;
-		color: var(--nav-title-fg);
+		color: rgb(227, 227, 227);
 	}
 
 	.links-container {
@@ -167,7 +166,44 @@
 		}
 	}
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 1100px) {
+		.header {
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
+		.links-container {
+			display: none;
+		}
+
+		.burger {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			z-index: 21;
+			background: none;
+			border: none;
+		}
+
+		.dropdown {
+			height: 100%;
+			width: 100%;
+			top: 0;
+			left: 0;
+			z-index: 20;
+			position: absolute;
+			background-color: var(--secondary);
+		}
+
+		.link {
+			margin: 1rem 2rem;
+			font-size: 20px;
+		}
+	}
+
+	@media only screen and (max-width: 800px) {
 		.header {
 			padding-left: 2rem;
 			padding-right: 2rem;

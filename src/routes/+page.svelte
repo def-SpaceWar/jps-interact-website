@@ -1,5 +1,8 @@
 <script>
 	import SlideShow from './SlideShow.svelte';
+	import './styles.css';
+	import Footer from './Footer.svelte';
+	import HeaderHome from './HeaderHome.svelte';
 
 	let q1 = false;
 	let q2 = false;
@@ -11,6 +14,7 @@
 	let q8 = false;
 </script>
 
+<HeaderHome />
 <svelte:head>
 	<title>Home - JPS Interact Club</title>
 	<meta name="description" content="The home of community service at John P. Stevens High School." />
@@ -144,6 +148,7 @@
 	</div>
 	
 </section>
+<Footer />
 
 <style>
 	.faq {
@@ -174,7 +179,7 @@
 	}
 
 	.blue {
-		color: var(--nav-sec);
+		color: var(--primary);
 	}
 
 	.faq-card:hover {
@@ -231,10 +236,10 @@
 		width: 100%;
 		background: var(--secondary);
 		opacity: 1;
-		background-image: linear-gradient(150deg, #16478E 35%, transparent 45%),
-			linear-gradient(225deg, #16478E 25%, transparent 25%),
-			linear-gradient(45deg, #16478E 25%, transparent 25%),
-			linear-gradient(315deg, #16478E 25%, #016AB7 25%);
+		background-image: linear-gradient(135deg, #00b4e7 25%, transparent 25%),
+			linear-gradient(225deg, #00b4e7 25%, transparent 25%),
+			linear-gradient(45deg, #00b4e7 25%, transparent 25%),
+			linear-gradient(315deg, #00b4e7 25%, #00a3d4 25%);
 		background-position: 10px 0, 10px 0, 0 0, 0 0;
 		background-size: 30px 30px;
 		background-repeat: repeat;
@@ -297,8 +302,8 @@
 
 	.learn-more button:hover {
 		cursor: pointer;
-		border: 3px solid var(--nav-sec);
-		background-color: var(--nav-sec);
+		border: 3px solid var(--secondary-fg);
+		background-color: var(--secondary-fg);
 	}
 
 	@media only screen and (max-width: 600px) {

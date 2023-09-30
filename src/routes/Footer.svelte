@@ -2,7 +2,7 @@
 	<div>
 		<div class="flex">
 			<h3 class="title">JPS Interact Club</h3>
-			<!-- <img src="favicon.png" class="gear" alt="Intaract Gear" /> -->
+			<img src="favicon.png" class="gear" alt="Intaract Gear" />
 		</div>
 		<p class="description">The home of community service at JPS High School where service, leadership, and community collide!</p>
 		<div class="flex social">
@@ -64,7 +64,7 @@
 		width: fit-content;
 		margin: 0;
 		margin-right: 0.6rem;
-		color: var(--nav-sec);
+		color: var(--logo-color);
 		font-family: 'Rubik', sans-serif;
 	}
 
