@@ -43,6 +43,13 @@
 		}
 	}
 
+	setInterval(() => {
+    currentImgIdx++;
+		if (currentImgIdx > images.length - 1) {
+			currentImgIdx = 0;
+		}
+  }, 3000);
+
 	function setImage(idx: number) {
 		return () => (currentImgIdx = idx);
 	}
@@ -88,8 +95,23 @@
 		position: absolute;
 		width: 35vw;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-55%);
 		border-radius: 10px;
+	}
+
+	@keyframes bounce {
+		0% {
+			transform: translateY(0%);
+		}
+		33% {
+			transform: translateY(-5%);
+		}
+		66% {
+			transform: translateY(5%);
+		}
+		100% {
+			transform: translateY(0%);
+		}
 	}
 
 	button {
@@ -109,6 +131,7 @@
 		position: relative;
 		width: 35vw;
 		height: 35vh;
+		animation: bounce 5s infinite;
 	}
 
 	#prev {

@@ -73,9 +73,7 @@
 		Club today, where service, leadership, and community collide in a symphony of impact and
 		inspiration.
 	</p>
-	<a href="https://classroom.google.com/c/NDkyMjY1NjMyMTg4?cjc=vqq5njd">
-		Join Here
-	</a>
+	<a href="https://classroom.google.com/c/NDkyMjY1NjMyMTg4?cjc=vqq5njd"> Join Here </a>
 </div>
 
 <div
@@ -91,11 +89,19 @@
 	<h1>Meet the Executive Board</h1>
 	{#if animated}
 		<div transition:fade={{ duration: 500 }} class="board-members-container">
-			<BoardMemberCard name="Hassan Rizwan" image="hassan.png" title="Co-President" />
-			<BoardMemberCard name="Arnav Sadeesh" image="arnav.png" title="Co-President" />
-			<BoardMemberCard name="Dhruba Bhattacharjee" image="dhruba.png" title="Vice President" />
-			<BoardMemberCard name="Janvi Mudnaik" image="janvi.png" title="Secretary" />
+			<div class="row-bm">
+				<BoardMemberCard name="Hassan Rizwan" image="hassan.png" title="Co-President" />
+				<BoardMemberCard name="Arnav Sadeesh" image="arnav.png" title="Co-President" />
+			</div>
+			<div class="row-bm m-bm">
+				<BoardMemberCard name="Dhruba Bhattacharjee" image="dhruba.png" title="Vice President" />
+				<BoardMemberCard name="Janvi Mudnaik" image="janvi.png" title="Secretary" />
+				<BoardMemberCard name="No Name" image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADx0lEQVR4nO2cW4iMYRjHH2c55FCUC+dCCBdEFIUbN65QlEihFKLccCFu5FZJ4kJCWmkdZp5n1sZsKJG4ImIj5HDh0F44lr++d7817KHd2Znve9+Z/f/qX9tOM828v573+97D94oQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEJIOcijr2QwwiX6m6QI0EuyWCSKg2K4LoZ3YsB/UbyNXzsgOSx07yFlJo8hYtgthsY2AjpPoyh2SR0G00upAL1EsUEUH7ohonXlvBfDelZMd6nHMDFcKFlE21yRHEayWorBMEEMTxOQ8W83NplSukIG48XwJkEZLXkt9RhHKZ11U4onKchoyWO5hKGU0nFXVZOijJaL/TkKaQ/FqtRlFLKSUv6lBv3F8NKjkEa5j36UUqiOTR5lIO66NlBI4dpxz7sQwx0KichiSgAy4JLBJEpRbPMuwv5mK4UYzgQgAi6K0xSiuB+QkLsU0t6ahnnLGwoxNAUgAnGaKETxJQARiPOJQhSvAhCBOC8pRHEzABFwUeQpRHHMuwj7m6MUYlgbgAjEWUMhilGi+BmAjB9cay/M9l4OQEgtq6MgZJl3IRksppBw7rauU0bbJdxZoviVuozm69cMCml/k8NeD9WxhzI6Yj96i+JiijJquLW0M/IYKIr6FLqqa6IYwOroCooBYjifoIxzbqcLKXLnu2GnKL6VUcZXUWynh1JQTHYDR8XvEioiem8tNzGUkwzmiOFkkesnn0VxQnKYXdbvQlpdXxRLRLFPFGfFcEsMD+Pccv+LXotG3rxOEEIIIYSQCqMWw93trmFHPB6JVhkb3O2u4oVL861vgyguufFHNCqPbn+jZxdJieTRN15JPCKG52WYv3rmPiuLpTwTpRgU88RwShQfE5xcjD77lGQxl4XT0TqIYbkoriY+7d42t8WwWmrQh3KaKyLqlh55EIFWeeS+S4/FMMY9IFPKLK4l0p1d7XknPCi2BPYYAlqlSbLYLD1kefZEAA2OLlbLabmCQVKV5DDWPTLmu5Gt6DyQOkyUqiKHafHRe74bF92slA9Sh5lSFVS6DKsmKdUiw6pBSh1Gp3QQGVLOa/fbKopo1BttRPPfeEioUm5U1nyY4rD3RrPEc0gqgixWBDf6tkSq5Lf7rRVwEFmSp4kisDS6wW6w5LAugEZCytkowaKwABoIKadBAl7TCHnCEAnle5iPNUSbov03DrxEMV2CI4P5PVjIAgkOw1TvDWOeEp0bGSSG494bx1LPcamAx5ujU6pXV3UUq9xvJYQQQiQM/gDlxS+/wbJ4AwAAAABJRU5ErkJggg==" title="Historian" />
+				<BoardMemberCard name="No Name" image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADx0lEQVR4nO2cW4iMYRjHH2c55FCUC+dCCBdEFIUbN65QlEihFKLccCFu5FZJ4kJCWmkdZp5n1sZsKJG4ImIj5HDh0F44lr++d7817KHd2Znve9+Z/f/qX9tOM828v573+97D94oQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEJIOcijr2QwwiX6m6QI0EuyWCSKg2K4LoZ3YsB/UbyNXzsgOSx07yFlJo8hYtgthsY2AjpPoyh2SR0G00upAL1EsUEUH7ohonXlvBfDelZMd6nHMDFcKFlE21yRHEayWorBMEEMTxOQ8W83NplSukIG48XwJkEZLXkt9RhHKZ11U4onKchoyWO5hKGU0nFXVZOijJaL/TkKaQ/FqtRlFLKSUv6lBv3F8NKjkEa5j36UUqiOTR5lIO66NlBI4dpxz7sQwx0KichiSgAy4JLBJEpRbPMuwv5mK4UYzgQgAi6K0xSiuB+QkLsU0t6ahnnLGwoxNAUgAnGaKETxJQARiPOJQhSvAhCBOC8pRHEzABFwUeQpRHHMuwj7m6MUYlgbgAjEWUMhilGi+BmAjB9cay/M9l4OQEgtq6MgZJl3IRksppBw7rauU0bbJdxZoviVuozm69cMCml/k8NeD9WxhzI6Yj96i+JiijJquLW0M/IYKIr6FLqqa6IYwOroCooBYjifoIxzbqcLKXLnu2GnKL6VUcZXUWynh1JQTHYDR8XvEioiem8tNzGUkwzmiOFkkesnn0VxQnKYXdbvQlpdXxRLRLFPFGfFcEsMD+Pccv+LXotG3rxOEEIIIYSQCqMWw93trmFHPB6JVhkb3O2u4oVL861vgyguufFHNCqPbn+jZxdJieTRN15JPCKG52WYv3rmPiuLpTwTpRgU88RwShQfE5xcjD77lGQxl4XT0TqIYbkoriY+7d42t8WwWmrQh3KaKyLqlh55EIFWeeS+S4/FMMY9IFPKLK4l0p1d7XknPCi2BPYYAlqlSbLYLD1kefZEAA2OLlbLabmCQVKV5DDWPTLmu5Gt6DyQOkyUqiKHafHRe74bF92slA9Sh5lSFVS6DKsmKdUiw6pBSh1Gp3QQGVLOa/fbKopo1BttRPPfeEioUm5U1nyY4rD3RrPEc0gqgixWBDf6tkSq5Lf7rRVwEFmSp4kisDS6wW6w5LAugEZCytkowaKwABoIKadBAl7TCHnCEAnle5iPNUSbov03DrxEMV2CI4P5PVjIAgkOw1TvDWOeEp0bGSSG494bx1LPcamAx5ujU6pXV3UUq9xvJYQQQiQM/gDlxS+/wbJ4AwAAAABJRU5ErkJggg==" title="Treasurer" />
+			</div>
+			<div class="row-bm">
 			<BoardMemberCard name="Ms. Susan Kacani" image="ms-susan.png" title="Advisor" />
+			</div>
 		</div>
 	{/if}
 </div>
@@ -167,7 +173,19 @@
 
 	.board-members-container {
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.row-bm {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.m-bm {
+		border-top: 4px solid var(--secondary-fg);
+		border-bottom: 4px solid var(--secondary-fg);
 	}
 
 	@media only screen and (max-width: 600px) {

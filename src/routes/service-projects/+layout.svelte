@@ -2,12 +2,22 @@
 	import '../styles.css';
 	import Footer from '../Footer.svelte';
 	import Header from '../Header.svelte';
+	import Loading from '../Loading.svelte';
+	let loading = true;
+	setInterval(() => {
+    loading = false;
+  }, 600);
 </script>
 
 <div class="app">
-	<Header />
-	<slot />
-	<Footer />
+	{#if loading === true}
+		<Loading />
+	{/if}
+	{#if loading === false}
+		<Header />
+		<slot />
+		<Footer />
+	{/if}
 </div>
 
 <style>

@@ -11,6 +11,7 @@
 				<h1 class="name">JPS INTERACT CLUB</h1>
 			</a>
 			<a href="/">
+				<img src="title-icon-white.png" alt="Interact Club's Logo" id="interact_gear" />
 			</a>
 		</div>
 		<div class="links-container">
