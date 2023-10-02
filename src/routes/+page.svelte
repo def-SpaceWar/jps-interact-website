@@ -7,7 +7,7 @@
 	let loading = true;
 	setInterval(() => {
 		loading = false;
-	}, 1000);
+	}, 600);
 
 	let q1 = false;
 	let q2 = false;
